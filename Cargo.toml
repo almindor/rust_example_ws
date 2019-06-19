@@ -1,0 +1,9 @@
+[workspace]
+
+# Optional key, inferred from path dependencies if not present.
+# Additional non-path dependencies that should be included must be given here.
+# In particular, for a virtual manifest, all members have to be listed.
+members = ["lib123", "uprog"]
+
+[patch.crates-io]
+lib123 = { path = "lib123" }
